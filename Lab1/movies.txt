@@ -1,0 +1,12 @@
+11
+The Shawshank Redemption,142,42,
+Schindler's List,195,160,
+Fight Club,139,76,
+Forrest Gump,142,97,
+Inception,148,293,
+The Matrix,136,30,
+The Silence of the Lambs,118,28,
+Leon,110,19,
+The Green Mile,189,503,
+Interstellar,169,285,
+Intouchables,112,134,
