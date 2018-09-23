@@ -29,18 +29,19 @@ int main() {
 		file >> hamster[i][0] >> hamster[i][1];
 		file.get();
 	}
+	file.close();
 
 	int result = algo(hamster, total_amount, food);
-	
-	std::cout << result << std::endl;
-	_getch();
+	file.open("hamstr.out", std::fstream::out);
+	file << result << std::endl;
+	//_getch();
 
 	for (int i = 0; i < total_amount; i++) {
 		delete[] hamster[i];
 	}
 	delete[] hamster;
-
 	file.close();
+	
 	return 0;
 }
 
